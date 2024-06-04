@@ -7,7 +7,7 @@ while($runscript -eq 1)
     $datenow = (Get-Date -Format "dddd MM/dd/yyyy hh:mm:%s")
     foreach ($letter in $wmiobject)
     {
-        if($letter["VideoOutputTechnology"] -eq 5) #HDMI cable have value of 5 
+        if($letter["VideoOutputTechnology"] -eq 5)
         {
             $HDMI_Monitors += 1;
         }
