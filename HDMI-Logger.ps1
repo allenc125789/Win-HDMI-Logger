@@ -1,7 +1,5 @@
 $runscript = 1;
 
-
-
 while($runscript -eq 1)
 {
     $wmiobject = (get-wmiobject -namespace root\WMI -computername localhost -Query "Select * from WmiMonitorConnectionParams")
