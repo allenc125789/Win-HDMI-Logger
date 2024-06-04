@@ -1,5 +1,4 @@
 $runscript = 1;
-$current_conns = 0;
 
 
 
