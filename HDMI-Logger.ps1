@@ -1,6 +1,5 @@
 $runscript = 1;
 $current_conns = 0;
-$wmiobject = 0;
 
 
 
