@@ -17,8 +17,4 @@ while($runscript -eq 1)
         $current_conns = $HDMI_Monitors;
         "$current_conns Monitor(s) connected. $datenow" | Add-Content .\HDMI-logs.txt
     }
-    if ( [ System.Environment ]:: HasShutdownStarted )
-    {
-        $runscript = 0
-    }
 }
